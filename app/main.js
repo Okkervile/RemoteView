@@ -248,7 +248,7 @@ RemoteViewUI.app = M.Application.design({
                 item7:M.CarouselItemView.design({
                     childViews:'img7',
                     img7:M.ImageView.design({
-                        value:'theme/images/7.jpg',
+                        value:'theme/images/5.jpg',
                         cssClass:'carouselImg'
                     })
                 })
