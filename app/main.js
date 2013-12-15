@@ -4,7 +4,7 @@
 //
 // Project: test1 
 // ==========================================================================
-
+m_require('app/views/tabs.js')
 var RemoteViewUI;
 RemoteViewUI = RemoteViewUI || {};
 
@@ -159,23 +159,7 @@ RemoteViewUI.app = M.Application.design({
 
         }),
 
-        footer: M.TabBarView.design({
-            childViews: 'tab1 tab2 tab3',
-            anchorLocation: M.BOTTOM,
-            tab1: M.TabBarItemView.design({
-                value: 'Tab 1',
-                page: 'page1',
-                isActive: YES
-            }),
-            tab2: M.TabBarItemView.design({
-                value: 'Tab 2',
-                page: 'page2'
-            }),
-            tab3: M.TabBarItemView.design({
-                value: 'Tab 3',
-                page: 'page3'
-            })
-        })
+        footer: RemoteViewUI.tabs
 
 
 
@@ -255,24 +239,7 @@ RemoteViewUI.app = M.Application.design({
             })
         }),
 
-        footer: M.TabBarView.design({
-            childViews: 'tab1 tab2 tab3',
-            anchorLocation: M.BOTTOM,
-
-            tab1: M.TabBarItemView.design({
-                value: 'Tab 1',
-                page: 'page1'
-            }),
-            tab2: M.TabBarItemView.design({
-                value: 'Tab 2',
-                page: 'page2',
-                isActive: YES
-            }),
-            tab3: M.TabBarItemView.design({
-                value: 'Tab 3',
-                page: 'page3'
-            })
-        })
+        footer: RemoteViewUI.tabs
 
 
 
@@ -285,24 +252,8 @@ RemoteViewUI.app = M.Application.design({
             value: 'Page 3',
             showBackButton: YES
         }),
-        footer: M.TabBarView.design({
-            childViews: 'tab1 tab2 tab3',
-            anchorLocation: M.BOTTOM,
-            tab1: M.TabBarItemView.design({
-                value: 'Tab 1',
-                page: 'page1'
-            }),
-            tab2: M.TabBarItemView.design({
-                value: 'Tab 2',
-                page: 'page2'
-            }),
-            tab3: M.TabBarItemView.design({
-                value: 'Tab 3',
-                page: 'page3',
-                isActive: YES
-            })
-        })
 
+        footer: RemoteViewUI.tabs
 
 
     })
