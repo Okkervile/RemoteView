@@ -83,7 +83,7 @@ RemoteViewUI.app = M.Application.design({
                 }),
                 item4: M.SelectionListItemView.design({
                     value: 'item4',
-                    label: 'Item 4'
+                    label: 'Item 7'
                 })
             }),
             lb2: M.LabelView.design({

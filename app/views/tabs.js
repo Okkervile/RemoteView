@@ -11,7 +11,7 @@
         anchorLocation: M.BOTTOM,
 
         tab1: M.TabBarItemView.design({
-            value: 'Tab 1',
+            value: 'Tab 5',
             page: 'page1',
             isActive: YES
         }),
