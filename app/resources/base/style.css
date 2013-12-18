@@ -11,6 +11,23 @@
     font-size: 20px;
     text-align: center;
     text-decoration: underline;
-    tex
 
+}
+.shotBox {
+    /*box-sizing:content-box*/
+    height: 74px;
+    top: 150px;
+    line-height: 3.5 ;
+
+    /*margin: 10px 5px 10px 5px;*/
+
+    border: 8px double #7c7; /* mid green */
+    background-color: #efe;     /* pale green */
+    padding: 4px;
+    margin-left: 2px;
+    margin-right: 0px;
+    margin-bottom: 220px;
+}
+.nonIconButton {
+    top: 70px;
 }

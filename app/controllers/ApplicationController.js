@@ -32,10 +32,10 @@ RemoteViewUI.ApplicationController = M.Controller.extend({
         $('.greyBox').css("font-size", "19");
 
 
-        $('.shotBox').css("width", "240px");
+        /*$('.shotBox').css("width", "240px");
         $('.shotBox').css("height", "240px");
         $('.shotBox').css("text-align", "center");
-        $('.shotBox').css("font-size", "41px");
+        $('.shotBox').css("font-size", "41px");*/
 
     },
 

@@ -144,6 +144,7 @@ RemoteViewUI.app = M.Application.design({
                 })
             }),
             btnSS4: M.ButtonView.design({
+                cssClass: "nonIconButton",
                 value: 'Connect'
             }),
 
